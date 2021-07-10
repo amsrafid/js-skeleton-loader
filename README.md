@@ -44,5 +44,5 @@ new Loader('loader').render([
 });
 ~~~
 
-It should looks like,
-<img src="./blobs/looks.png" height="142px" />
+It should looks like,\
+<img src="./blobs/looks.png" width="80%" />
