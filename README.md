@@ -46,3 +46,15 @@ new Loader('loader').render([
 
 It should looks like,\
 <img src="./blobs/looks.png" width="80%" />
+
+## Authors
+
+_Initial development_ - **_A. M. Sadman Rafid_**
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within JS Skeleton Loader, please send an e-mail to _A. M. Sadman Rafid_ via [amsrafid@gmail.com](mailto:amsrafid@gmail.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The JS Skeleton Loader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
