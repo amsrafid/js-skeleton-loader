@@ -4,7 +4,7 @@ Simple but very powerful loader package built with full javascript.
 
 ## Installation
 
-To install this package, include **_index.js_** file into your site _<head>_ or end of the _<body>_ section as a script.
+To install this package, include **_index.js_** file into your site **_head_** or _end of the_ **_body_** section as a script.
 
 ~~~html
 <head>
