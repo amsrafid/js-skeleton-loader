@@ -191,6 +191,7 @@ function Loader(component = null) {
             this.appendStyleSheet();
             
             let root = document.createElement('div');
+
             Style.setStyles(root, {
                 position: 'relative',
                 display: 'flex',
@@ -209,7 +210,26 @@ function Loader(component = null) {
                 return this;
             }
             
-            this.getComponent().append(root);
+            return this.getComponent().append(root);
+        },
+        toDOM() {
+            return this.rootComponent;
+        },
+        toString() {
+            if (! this.rootComponent) {
+                return "";
+            }
+
+            return new XMLSerializer().serializeToString(this.rootComponent);
+        },
+        toAppend(selector) {
+            let component = document.querySelector(selector);
+
+            if (component) {
+                component.append(this.rootComponent);
+            }
+            
+            return this;
         }
     };
 
