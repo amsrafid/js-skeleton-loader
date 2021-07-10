@@ -43,3 +43,6 @@ new Loader('loader').render([
     }
 });
 ~~~
+
+It should looks like,
+<img src="./blobs/looks.png" height="142px" />
