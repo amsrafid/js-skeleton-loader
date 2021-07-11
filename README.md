@@ -11,7 +11,9 @@ To install this package, include **_index.js_** file into your site **_head_** o
     <!-- <script src="index.js"></script> -->
 </head>
 <body>
-    ...
+    <!-- Component in which loader will be initiated -->
+    <div id="loader"></div>
+
     <!-- OR -->
     <!-- <script src="index.js"></script> -->
 </body>
